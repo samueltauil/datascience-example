@@ -14,5 +14,7 @@ numexpr
 pandas-datareader
 netcdf4
 tensorboard
-pytorch
+torch
+torchvision
 tensorflow
+oauthenticator
