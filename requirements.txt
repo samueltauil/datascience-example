@@ -19,3 +19,6 @@ torchvision
 tensorflow
 oauthenticator
 vega
+altair
+vega_datasets
+jupyterlab
