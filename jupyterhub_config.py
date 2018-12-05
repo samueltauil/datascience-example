@@ -20,3 +20,11 @@ c.KubeSpawner.volume_mounts = [
         'mountPath': '/opt/app-root/src'
     }
 ]
+
+c.JupyterHub.services = [
+    {
+        'name': 'cull-idle',
+        'admin': True,
+        'command': ['cull-idle-servers', '--timeout=600'],
+    }
+]
